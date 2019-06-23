@@ -4,6 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Canvas from "./components/Canvas";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+      {/* <Canvas /> */}
 
       <Main />
 
