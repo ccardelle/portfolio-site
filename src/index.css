@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(90, 90, 90);
 }
 
 code {
@@ -13,6 +13,39 @@ code {
     monospace;
 }
 
+/* Navbar */
+.page-navbar {
+  background-color: rgb(88, 211, 114);
+}
+
+/* Main-Header Section/Component Styling */
+
 .main-container {
+  display: flex;
+  text-align: center;
   margin-top: 5vh;
+}
+/* Projects Section/Component Styling */
+.projects-title-text {
+  text-align: center;
+}
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-carousel-img {
+  border: 5px solid rgb(88, 211, 114);
+  border-radius: 20px;
+}
+
+.projects-carousel-caption {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+/* About Section/Component Styling */
+
+.about-title-text {
+  text-align: center;
 }

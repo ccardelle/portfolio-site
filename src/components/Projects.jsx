@@ -8,39 +8,42 @@ class Projects extends Component {
   state = {};
   render() {
     return (
-      <div className="container main-container">
-        <Carousel>
-          <Carousel.Item>
-            <img className="d-block w-100" src={elaidanPic} alt="First slide" />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <div className="container">
+        <h2 className="projects-title-text">Projects</h2>
+        <Carousel className="projects-carousel">
+          <Carousel.Item className="">
+            <img
+              className="d-block w-100 projects-carousel-img"
+              src={elaidanPic}
+              alt="First slide"
+            />
+            <Carousel.Caption className="projects-carousel-caption">
+              <h3>Elaidan</h3>
+              <p>Rythym-based Jumper Game</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className="">
             <img
-              className="d-block w-100"
+              className="d-block w-100 projects-carousel-img"
               src={billifyPic}
               alt="Second slide"
             />
 
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <Carousel.Caption className="projects-carousel-caption">
+              <h3>Billify</h3>
+              <p>Bill and Expense Tracking App</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item className="">
             <img
-              className="d-block w-100"
+              className="d-block w-100 projects-carousel-img"
               src={midiBankPic}
               alt="Third slide"
             />
 
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+            <Carousel.Caption className="projects-carousel-caption">
+              <h3>MIDIBank</h3>
+              <p>Music / MIDI Collaboration and Remixing</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

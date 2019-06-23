@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 import { Navbar, Nav } from "react-bootstrap";
+import Main from "./components/Main";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   return (
     <div>
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar className="page-navbar" expand="lg">
         <Navbar.Brand href="#home">Cardelle</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +20,11 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
+      <Main />
+
       <Projects />
+
+      <About />
     </div>
   );
 }
