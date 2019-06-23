@@ -1,8 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import Main from "./components/Main";
+import { Navbar, Nav } from "react-bootstrap";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -18,24 +17,8 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Container>
-        <Main />
-      </Container>
 
-      {/* <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Under Construction</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div> */}
+      <Projects />
     </div>
   );
 }
