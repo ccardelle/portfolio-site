@@ -8,14 +8,14 @@ import About from "./components/About";
 function App() {
   return (
     <div>
-      <Navbar className="page-navbar" expand="lg">
+      <Navbar className="page-navbar" expand="lg" variant="dark" fixed="top">
         <Navbar.Brand href="#home">Cardelle</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#home">Main</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">About Me</Nav.Link>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+            <Nav.Link href="#About">About Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

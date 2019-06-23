@@ -8,7 +8,7 @@ class Projects extends Component {
   state = {};
   render() {
     return (
-      <div className="container projects-container">
+      <div className=" projects-container">
         <h2 className="projects-title-text">Projects</h2>
         <br />
         <Carousel className="projects-carousel">
