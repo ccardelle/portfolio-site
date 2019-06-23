@@ -24,14 +24,15 @@ code {
   display: flex;
   text-align: center;
   margin-top: 5vh;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
 /* Projects Section/Component Styling */
 .projects-title-text {
   text-align: center;
 }
 .projects-container {
-  display: flex;
-  justify-content: center;
+  margin-top: 5vh;
 }
 
 .projects-carousel-img {
@@ -46,6 +47,11 @@ code {
 
 /* About Section/Component Styling */
 
+.about-container {
+  margin-top: 5vh;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
 .about-title-text {
   text-align: center;
 }

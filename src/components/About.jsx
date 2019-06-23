@@ -4,7 +4,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="about-container">
+      <div className="container about-container">
         <Container>
           <h2 className="about-title-text"> About Me </h2>
           <p>
