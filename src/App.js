@@ -14,8 +14,8 @@ function App() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#home">Main</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#About">About Me</Nav.Link>
+            <Nav.Link href="#proj">Projects</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -4,28 +4,35 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="container about-container">
-        <Container>
-          <h2 className="about-title-text"> About Me </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            eget faucibus quam. Morbi cursus auctor nulla, vel viverra urna
-            elementum nec. Sed pellentesque iaculis metus, vitae tincidunt velit
-            porttitor non. Aliquam lobortis eu dui eget ornare. Nam ac aliquam
-            sapien, vel eleifend quam. Proin vitae volutpat eros. Vivamus elit
-            quam, fermentum ut velit id, tempus ullamcorper tortor. Nunc elit
-            est, dictum in felis a, fermentum volutpat mi. Sed interdum
-            facilisis neque, quis cursus elit pulvinar in. Suspendisse vitae
-            metus eu libero sollicitudin varius. Proin molestie lorem mi, ac
-            lobortis quam vehicula nec. Nullam rhoncus rutrum nisi in mollis.
-            Nulla a ipsum ullamcorper, viverra urna accumsan, maximus magna.
-            Orci varius natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Vivamus mi elit, efficitur eu sem placerat,
-            venenatis maximus orci. Integer luctus velit finibus tempus
-            ullamcorper.
-          </p>
-        </Container>
-      </div>
+      <a id="about">
+        <div className="container about-container">
+          <Container>
+            <h2 className="about-title-text"> About Me </h2>
+            <p>I love computers and technology</p>
+            <p>
+              Coding was always fun for me. It has been a passion of mine for as
+              long as I can remember. Recently, I was given the opportunity to
+              finally follow my dream and make a career out of it. This page is
+              just the beggining. Currently working on several projects and
+              expanding my knowledge daily.{" "}
+            </p>
+            <br />
+            <p>Skills:</p>
+            <ul>
+              {" "}
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>C++</li>
+              <li>Java</li>
+            </ul>
+            <p />
+          </Container>
+        </div>
+      </a>
     );
   }
 }
