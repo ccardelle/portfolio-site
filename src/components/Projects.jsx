@@ -26,9 +26,9 @@ class Projects extends Component {
                   <h3>Elaidan</h3>
                   <p>Rythym-based Jumper Game</p>
                   <p>HTML, CSS, JavaScript, PhaserJS</p>
-                  <a href="https://ccardelle.github.io/elaidan_game_project/">
+                  {/* <a href="https://ccardelle.github.io/elaidan_game_project/">
                     <p>https://ccardelle.github.io/elaidan_game_project</p>
-                  </a>
+                  </a> */}
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className="">
@@ -45,9 +45,9 @@ class Projects extends Component {
                   <h3>Billify</h3>
                   <p>Bill and Expense Tracking App</p>
                   <p>HTML, CSS, JavaScript, HandleBars, MongoDB</p>
-                  <a href="https://billify-app.herokuapp.com/">
+                  {/* <a href="https://billify-app.herokuapp.com/">
                     <p>https://billify-app.herokuapp.com</p>
-                  </a>
+                  </a> */}
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className="">
@@ -63,9 +63,9 @@ class Projects extends Component {
                   <h3>MIDIBank</h3>
                   <p>Music / MIDI Collaboration and Remixing</p>
                   <p>HTML, CSS, JavaScript, React.js, MongoDB, Amazon AWS</p>
-                  <a href="https://midibank.herokuapp.com/">
+                  {/* <a href="https://midibank.herokuapp.com/">
                     <p>https://midibank.herokuapp.com</p>
-                  </a>
+                  </a> */}
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

@@ -71,9 +71,9 @@ ul > li {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 150vh;
-  height: 70vh;
-  margin-bottom: 50vh;
+  max-width: 100vh;
+  height: 100vh;
+  /* margin-bottom: 50vh; */
 }
 
 .projects-carousel-img {
@@ -82,14 +82,18 @@ ul > li {
   margin-bottom: 15vh;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 20vh;
+  margin-bottom: 25vh;
   max-width: 80vh;
 }
 
 .projects-carousel-caption {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  margin-top: 200px;
+  bottom: -70px !important;
+  padding-bottom: 20px;
+  height: 40vh;
+  /* height: 220px !important;
+  padding: 200px !important; */
 }
 
 /* About Section/Component Styling */
