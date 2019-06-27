@@ -18,16 +18,16 @@ class About extends Component {
             </p>
             <br />
             <p>Skills:</p>
-            <ul>
+            <ul id="skills-container">
               {" "}
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>C++</li>
-              <li>Java</li>
+              <li id="skills-item">HTML</li>
+              <li id="skills-item">CSS</li>
+              <li id="skills-item">JavaScript</li>
+              <li id="skills-item">React</li>
+              <li id="skills-item">Express</li>
+              <li id="skills-item">MongoDB</li>
+              <li id="skills-item">C++</li>
+              <li id="skills-item">Java</li>
             </ul>
             <p />
           </Container>

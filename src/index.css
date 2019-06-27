@@ -89,9 +89,9 @@ ul > li {
 .projects-carousel-caption {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  bottom: -70px !important;
+  /* bottom: -70px !important; */
   padding-bottom: 20px;
-  height: 40vh;
+  /* height: 25vh; */
   /* height: 220px !important;
   padding: 200px !important; */
 }
@@ -109,6 +109,7 @@ ul > li {
   text-align: center;
   font-size: 1.2rem;
   height: 40vh;
+  padding-top: 30px;
 }
 .about-title-text {
   text-align: center;

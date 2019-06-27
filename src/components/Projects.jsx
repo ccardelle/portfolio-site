@@ -44,7 +44,7 @@ class Projects extends Component {
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3>Billify</h3>
                   <p>Bill and Expense Tracking App</p>
-                  <p>HTML, CSS, JavaScript, HandleBars, MongoDB</p>
+                  <p>HTML, CSS, JavaScript, MongoDB</p>
                   {/* <a href="https://billify-app.herokuapp.com/">
                     <p>https://billify-app.herokuapp.com</p>
                   </a> */}
@@ -61,8 +61,8 @@ class Projects extends Component {
 
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3>MIDIBank</h3>
-                  <p>Music / MIDI Collaboration and Remixing</p>
-                  <p>HTML, CSS, JavaScript, React.js, MongoDB, Amazon AWS</p>
+                  <p>Music Collaboration and Remixing</p>
+                  <p>JavaScript, React.js, Amazon AWS</p>
                   {/* <a href="https://midibank.herokuapp.com/">
                     <p>https://midibank.herokuapp.com</p>
                   </a> */}
