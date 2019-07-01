@@ -23,7 +23,6 @@ ul {
   justify-items: center;
   justify-content: space-evenly;
   max-width: 100vh;
-
   padding: 0;
 }
 ul > li {
@@ -73,7 +72,6 @@ ul > li {
   margin-right: auto;
   max-width: 100vh;
   height: 100vh;
-  /* margin-bottom: 50vh; */
 }
 
 .projects-carousel-img {
@@ -89,11 +87,7 @@ ul > li {
 .projects-carousel-caption {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  /* bottom: -70px !important; */
   padding-bottom: 20px;
-  /* height: 25vh; */
-  /* height: 220px !important;
-  padding: 200px !important; */
 }
 
 /* About Section/Component Styling */
