@@ -20,8 +20,6 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 
-      {/* <Canvas /> */}
-
       <Main />
 
       <Projects />

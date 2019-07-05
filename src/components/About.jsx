@@ -18,7 +18,7 @@ class About extends Component {
             </p>
             <br />
             <p>Skills:</p>
-            <ul id="skills-container">
+            <ul id="skills-container optional">
               {" "}
               <li id="skills-item">HTML</li>
               <li id="skills-item">CSS</li>
