@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <a id="about">
         <div className="container about-container">
-          <Container>
+          <div className="container about-container-secondary">
             <h2 className="about-title-text"> About Me </h2>
             <p>I love computers and technology</p>
             <p>
@@ -18,7 +18,7 @@ class About extends Component {
             </p>
             <br />
             <p>Skills:</p>
-            <ul id="skills-container optional">
+            <ul className="skills-container optional">
               {" "}
               <li id="skills-item">HTML</li>
               <li id="skills-item">CSS</li>
@@ -30,7 +30,7 @@ class About extends Component {
               <li id="skills-item">Java</li>
             </ul>
             <p />
-          </Container>
+          </div>
         </div>
       </a>
     );

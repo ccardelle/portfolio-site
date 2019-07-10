@@ -20,7 +20,6 @@ a {
 ul {
   display: flex;
   flex-flow: wrap;
-  justify-items: center;
   justify-content: space-evenly;
   max-width: 100vh;
   padding: 0;
@@ -95,6 +94,7 @@ ul > li {
 .about-container {
   display: flex;
   justify-content: center;
+  justify-items: center;
   background: rgba(212, 211, 211, 0.03);
   margin-top: 50vh;
   margin-bottom: 50vh;
@@ -102,8 +102,13 @@ ul > li {
   color: white;
   text-align: center;
   font-size: 1.2rem;
-  height: 40vh;
+  height: 60vh;
   padding-top: 30px;
+}
+
+.about-container-secondary {
+  justify-items: center;
+  max-width: 75vh;
 }
 .about-title-text {
   text-align: center;
