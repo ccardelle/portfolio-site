@@ -13,7 +13,7 @@ class About extends Component {
               Coding was always fun for me. It has been a passion of mine for as
               long as I can remember. Recently, I was given the opportunity to
               finally follow my dream and make a career out of it. This page is
-              just the beggining. Currently working on several projects and
+              just the beginning. Currently working on several projects and
               expanding my knowledge daily.{" "}
             </p>
             <br />
